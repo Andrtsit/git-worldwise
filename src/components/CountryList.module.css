@@ -10,3 +10,10 @@
   align-content: start;
   gap: 1.6rem;
 }
+* {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+}
